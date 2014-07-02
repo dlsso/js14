@@ -1,31 +1,73 @@
 .outer-shell{
-	width: 500px;
-	height: 300px;
+	width: 440px;
+	height: 170px;
 	background: #333;
-	padding: 50px;
+	padding: 20px;
+	margin: 100px;
+	border-radius: 8px 8px 20px 20px;
 }
 .inner-shell{
-	width: 500px;
-	height: 300px;
+	width: 400px;
+	height: 130px;
 	background: #000;
+	text-align: right;
+	margin: 0px;
+	padding: 20px 30px 20px 10px;
+	border-radius: 12px 12px 40px 40px;
+
 }
 .left-labels{
+	color: white;
 	background: #000;
+	margin-top: 20px;
+	padding-bottom: 12px;
+	text-align: center;
 }
 .clock-screen{
-	background: #000;
+	width: 300px;
+	height: 90px;
+	display: inline-block;
+	float: right;
+	margin: 10px 30px 0px 10px;
+	background: #500;
+	border-radius: 8px;
+	margin: 0;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .am-pm-dot{
-	background: #000;
+	width: 20px;
+	height: 20px;
+	background: red;
+	margin-right: 28px;
+	border-radius: 50%;
+	display: inline-block;
 }
 .clock-text{
-	background: #000;
+	color: red;
+	font-size: 100px;
+	/*background: #500;*/
+	border-radius: 8px;
+	display: inline-block;
+	margin-top: -10px;
+	padding: 0;
+
 }
 .am-row{
+	color: white;
 	background: #000;
+	word-spacing: 8px;
+	margin-top: 5px;
 }
 .fm-row{
+	color: white;
 	background: #000;
+	word-spacing: 18px;
+	margin-top: 5px;
+}
+
+p{
+	margin: -3px;
 }
 
 /*// Outer Shell (dark gray)
