@@ -1,0 +1,38 @@
+.outer-shell{
+	width: 500px;
+	height: 300px;
+	background: #333;
+	padding: 50px;
+}
+.inner-shell{
+	width: 500px;
+	height: 300px;
+	background: #000;
+}
+.left-labels{
+	background: #000;
+}
+.clock-screen{
+	background: #000;
+}
+.am-pm-dot{
+	background: #000;
+}
+.clock-text{
+	background: #000;
+}
+.am-row{
+	background: #000;
+}
+.fm-row{
+	background: #000;
+}
+
+/*// Outer Shell (dark gray)
+// Inner Shell (black)
+// Left AM/PM & Auto Labels (white)
+// Clock Screen (dark red)
+// Clock AM/PM indicator (red)
+// Clock Text (red)
+// Bottom AM Label & Frequencies (white)
+// Bottom FM Label & Frequencies (white)*/
